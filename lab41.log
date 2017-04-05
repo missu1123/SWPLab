@@ -1,0 +1,53 @@
+    1  git init
+    2  git add.
+    3  git add .
+    4  git status
+    5  git commit -m "First commit"
+    6  git status
+    7  git remote add origin https://github.com/missu1123/SWPLab.git
+    8  git remote -v
+    9  git push origin master
+   10  git branch
+   11  git branch b1
+   12  git branch
+   13  git status
+   14  git add .
+   15  git commit -m "This happens in master branch"
+   16  git status
+   17  git check out branch b1
+   18  git branch
+   19  git checkout b1
+   20  git branch
+   21  git status
+   22  git add .
+   23  git commit -m "This happens in b1 branch"
+   24  git merge b1 -m "merge"
+   25  git branch
+   26  git checkout master
+   27  git branch
+   28  git branch -d b1
+   29  git branch
+   30  git branch
+   31  git merge b1 -m "merge"
+   32  git branch -d b1
+   33  git push origin master
+   34  git branch b2
+   35  git branch
+   36  git add .
+   37  git commit -m "Another thing happens in master branch"
+   38  git branch b2
+   39  git checkout b2
+   40  git branch
+   41  git add .
+   42  git commit -m "This happen in b2 branch"
+   43  git checkout master
+   44  git merge b2 -m "merge"
+   45  git add .
+   46  git commit -m "conflict fixed"
+   47  git status
+   48  git merge b2 -m "merge"
+   49  git branch -d b2
+   50  git push origin master
+   51  $history >mylog.log.
+   52  $history >mylog.log.
+   53  history >lab41.log
